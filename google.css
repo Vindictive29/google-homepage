@@ -13,9 +13,31 @@ li {
 		vertical-align: middle;
 		text-align:center;
 }
+#query {
+		-webkit-appearance: textfield;
+		-webkit-rtl-ordering: logical;
+    	-webkit-user-select: text;
+    	cursor: auto;
+}
+input {
+		text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    font: 13.3333px Arial;
+}
+#footer {
+		vertical-align: bottom;
+}
 
 #lga {
-		height: 231px;
+		width: 272;
+		height: 92;
 		margin-top: 45px;
 		text-align: -webkit-center;
 		
@@ -23,6 +45,12 @@ li {
 #searchBox{
 		text-align: -webkit-center;
 }
+
+#left {
+	float: left;
+}
+#right {
+	float: right;
 
 p {
 		background-color: red;
